@@ -1,0 +1,23 @@
+skyeng_calendar_auto/
+├── .env.example
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── pytest.ini
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── pages/
+│   ├── __init__.py
+│   ├── base_page.py
+│   ├── login_page.py
+│   └── calendar_page.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_api.py
+│   └── test_ui.py
+├── utils/
+│   ├── __init__.py
+│   └── api_client.py
+└── data/
+    └── test_data.py
